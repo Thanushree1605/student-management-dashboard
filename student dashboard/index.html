@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <div>
+            <h1 id="pageTitle">Student Dashboard</h1>
+            <p>Manage student profiles and explore their skills</p>
+        </div>
+        <div class="header-tag">STUDENT PORTAL</div>
+    </header>
+
+    <main class="container">
+
+        <section class="welcome-box">
+            <div>
+                <h2 id="welcomeMessage">Welcome to the Student Portal!</h2>
+                <p>Here is an overview of student learning progress.</p>
+            </div>
+            <div class="welcome-icon">🎓</div>
+        </section>
+
+        <section class="summary-card">
+            <div class="summary-icon">👥</div>
+            <div>
+                <p>Students Displayed</p>
+                <h2 id="studentCount">0</h2>
+            </div>
+        </section>
+
+        <section class="profiles-section">
+            <div class="section-heading">
+                <div>
+                    <h2>Student Profiles</h2>
+                    <p>Explore courses, skills and learning status.</p>
+                </div>
+                <span class="section-label">PROFILE OVERVIEW</span>
+            </div>
+
+            <div id="profileContainer" class="profile-grid"></div>
+        </section>
+
+        <footer>
+            <p>Student Management Dashboard | Frontend Development</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
